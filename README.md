@@ -7,6 +7,13 @@ This repository contains the periphery smart contracts for the Uniswap V3 Protoc
 For the lower level core contracts, see the [uniswap-v3-core](https://github.com/Uniswap/uniswap-v3-core)
 repository.
 
+## Hyperlynx deployment (HyperEVM)
+
+This fork is deployed on HyperEVM (chain id 999) against the
+[Hyperlynx v3-core](https://github.com/HyperlynxFi/v3-core) factory. See
+[`BUILD.md`](./BUILD.md) for the deployed contract addresses, the
+`POOL_INIT_CODE_HASH` pinned in `PoolAddress.sol`, and on-chain verification notes.
+
 ## Bug bounty
 
 This repository is subject to the Uniswap V3 bug bounty program,
